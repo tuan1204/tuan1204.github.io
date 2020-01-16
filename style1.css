@@ -1,0 +1,58 @@
+body{
+   background: white;
+}
+
+.login{
+    background-color: tomato;
+    width: 300px;
+    height: 200px;
+    margin: auto;
+    padding:5px 20px 5px 60px;
+}
+
+.header {
+    width: 100%;
+    height: 630px;
+    background-image: url(image/tet.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width:250px; 
+    height:400px; 
+    background: #ffffff;
+    margin: auto;
+    margin-top: 5px ;
+    box-shadow: 10px 10px 5px #ddd;
+}
+
+.avatar {
+padding-top: 10px;
+text-align: center;
+}
+
+.avatar img{
+width: 150px;
+border-radius: 50%;
+border: 1px solid #eee;
+}
+.name{
+text-align: center;
+}
+
+.name h2 {
+text-transform: capitalize ;
+color: grey;
+}
+
+.name p {
+color: #aaaaaa;
+font-style: italic;
+word-spacing: 1%;
+}
+
+.face {
+    width: 5px;
+    height: 5px;
+}

@@ -1,0 +1,224 @@
+body {
+    background: blue;
+
+}
+
+.row {
+    height: 50px;
+    background-color: blue;
+    border: gray;
+}
+
+.header {
+    width: 100%;
+    height: 1080px;
+    background-image: url(image/coc.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#thuc-don{
+    background-color: orange;
+    border-radius: 5%;
+}
+.flip a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.flip {
+    font-size: 15px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 5%;
+    background-color: blue;
+    color: black;
+    transition: margin-left .4s ease-in;
+    -webkit-transition: margin-left .4s ease-in;
+}
+
+
+.click {
+    color: red;
+}
+.vi-tri{
+    color: black;
+}
+
+#gioi-thieu,
+.gioiThieu {
+    font-size: 15px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 5%;
+    color: black;
+    transition: margin-left .4s ease-in;
+    -webkit-transition: margin-left .4s ease-in;
+}
+#gioi-thieu {
+    background-color: orange;
+}
+
+#khong-gian,
+.khongGian {
+    font-size: 15px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 5%;
+    color: black;
+    transition: margin-left .4s ease-in;
+    -webkit-transition: margin-left .4s ease-in;
+}
+#khong-gian {
+    background-color: orange;
+}
+
+#dat-ban,
+.datBan {
+    font-size: 15px;
+    text-align: center;
+    padding: 14px;
+    border-radius: 5%;
+    background-color: blue;
+    color: black;
+    transition: margin-left .4s ease-in;
+    -webkit-transition: margin-left .4s ease-in;
+}
+.menu,
+#menuChinh {
+    width: 30%;
+    height: auto;
+    background: orange;
+    border: 1px solid red;
+    border-radius: 5%;
+    text-align: center;
+    height: calc(100vh - 50px);
+    overflow: auto;
+}
+.tinhtien,
+#thanhToan {
+    width: 40%;
+    height: auto;
+    background: orange;
+    border: 1px solid red;
+    border-radius: 5%;
+    text-align: center;
+    height: calc(100vh - 50px);
+    overflow: auto;
+    right: 0;
+    padding-left: 5%;
+}
+ th , td {
+    border:1px solid black;
+}
+.tinhtien input{
+    width: 60px;
+    margin: auto;
+}
+.khung a:hover {
+    text-decoration: underline;
+}
+.mon td:hover {
+    text-decoration: underline;
+}
+.thanhtien a:hover {
+    text-decoration: underline;
+}
+
+#thuc-don,
+#gioi-thieu,
+#khong-gian, #dat-ban ,
+#menuChinh,
+#thanhToan {
+    display: none;
+}
+
+.flip,
+.gioiThieu,
+.khongGian, .datBan ,
+.menu,
+.tinhtien {
+    display: block;
+}
+
+#thuc-don {
+    position: absolute;
+}
+
+#gioi-thieu {
+    position: absolute;
+}
+
+#khong-gian {
+    position: absolute;
+}
+
+#dat-ban {
+    position: absolute;
+}
+#menuChinh {
+    position: absolute;
+}
+#thanhToan {
+    position: absolute;
+}
+
+
+
+
+.khung {
+    color: chartreuse;
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.ban {
+    margin: 0px 0px 15px 15px;
+    padding: 100px 100px 100px 100px;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 20%;
+    background-color: green;
+}
+
+.dat {
+    background-color: green;
+}
+
+.banner {
+    background: white;
+    width: 800px;
+    height: auto;
+}
+
+.soban {
+    width: 100%;
+    height: 20px;
+    border: 1px solid #000;
+}
+.order {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #000;
+}
+.nhac{
+    padding-bottom: 0%;
+}
+
+.menu td {
+    width: auto;
+    height: 40px;
+}
+
+.goiDo {
+    width: 250px;
+    height: auto;
+}
+.tien {
+    width: 100px;
+}
+
+
+

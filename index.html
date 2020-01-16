@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IPOS</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+    <div class="header container-fluid">
+        <div class="row">
+            <div class="col text-center ">
+                <p class="flip container-fluid" onclick="myFunction()">Menu</p>
+                <div id="thuc-don">
+                    <div class="thucDon">
+                        <p>Nộm Gà Xé Phay Hoa Chuối</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Mầm Đá Xào Bò Mỹ</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Gà Nướng Tú Lệ</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Lợn Nướng SaPa</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Thăn Bò Úc Cuốn Lá nốt bỏ lò</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Sườn Nướng Tảng Sốt Quả Mắc Mật</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Canh Sườn Chua Nấu Sấu</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Hoa Quả Theo Mùa</p>
+                        <hr color="gray">
+                    </div>
+                    <div class="thucDon">
+                        <p>Xem Chi Tiết Vui Lòng
+                            <a href="http://luklak.vn/our-menu/?fbclid=IwAR13D3HHg2Ppx5O0DDULVycDzSTd2qN4PKEjD4JxmDEF6OKGOXIy9jlwmyI"
+                                target="_blank" class="click">
+                                Click here
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col text-center">
+                <p class="gioiThieu container-fluid" onclick="myGioiThieu()">Giới Thiệu</p>
+                <div id="gioi-thieu">
+                    <p>
+                        GIỚI THIỆU
+                        Được đặt tại số 4A Lê Thánh Tông, quận Hoàn Kiếm. Nhà hàng Luk Lak là một nhà hàng Việt mang hơi
+                        hướng ẩm thực Việt Nam cổ truyền đầy hấp dẫn. Luk Lak ra đời là một hành trình dài đầy ý nghĩa.
+                        Thấm đẫm văn hóa từ xưa đến nay của người Việt trên mọi miền tổ quốc.
+
+                        Mong muốn mang đến cho mọi người những hương vị ẩm thực đặc sắc ở nơi vùng cao xa xôi. Hay làn
+                        gió từ đồng bằng mát rượi. Đầu bếp với nhiều năm trải mình khám phá, tích lũy, ngao du ở nhiều
+                        vùng trời trên đất nước mình. Để tạo nên nhà hàng Luk Lak độc đáo như hôm nay. Ẩm thực Việt Nam
+                        luôn là một điều thú vị và đặc sắc. Rất đáng để mọi người khám phá. Hãy đến với nhà hàng Luk Lak
+                        để hiểu rõ hơn về ẩm thực quê hương mình nhé!
+
+                        Để được tư vấn miễn phí và hỗ trợ đặt bàn sớm nhất. Bạn hãy liên hệ đến số hotline: 0913515351
+                    </p>
+                </div>
+            </div>
+            <div class="col text-center ">
+                <p class="khongGian container-fluid" onclick="myKhongGian()">Không Gian Nhà Hàng</p>
+                <div id="khong-gian">
+                    <p>Vui lòng<a
+                            href="https://www.facebook.com/pg/luklakvietnam/photos/?tab=album&album_id=1604556092920095&ref=page_internal"
+                            target="_blank" class="click">
+                            Click here
+                        </a>
+                    </p>
+                </div>
+            </div>
+            <div class="col text-center">
+                <p class="datBan container-fluid" onclick="myDatBan()">Đặt Bàn</p>
+                <div id="dat-ban">
+                    <div class="dat">
+                        <div class="col text-center ">
+                            <form>
+                                Họ Và Tên:<br>
+                                <input type="text" name="Họ Và Tên"><br>
+                                Số Người:<br>
+                                <input type="text" name="Số Người"><br>
+                                Ngày Đặt:<br>
+                                <input type="text" name="Ngày Đặt"><br>
+                                Nội Dung:<br>
+                                <input type="text" name="Nội Dung"><br>
+                                <input type="submit" value="Đặt Bàn"><br>
+                            </form>
+                        </div>
+                        <div class="col text-center ">
+                            <h2>NHÀ HÀNG VIỆT LUK LAK</h2>
+
+                            <ul>
+                                <li><a href="https://www.google.com/maps/place/Luk+Lak+Vietnamese+Restaurant/@21.0224445,105.8574653,19.25z/data=!4m13!1m7!3m6!1s0x3135abec2ece23cb:0x243ebcde1fe998ce!2zTMOqIFRow6FuaCBUw7RuZywgSG_DoG4gS2nhur9tLCBIw6AgTuG7mWk!3b1!8m2!3d21.0218081!4d105.857853!3m4!1s0x3135abec3d107393:0x3e18292b974e206e!8m2!3d21.0224956!4d105.8575?hl=en-US"
+                                        target="_blank" class="vi-tri">4A Lê Thánh Tông, Hoàn Kiếm, Hà Nội
+                                    </a></li>
+                                <li>+84 943 143 686</li>
+                                <li>info@luklak.vn</li>
+                                <li>Trip Advisor: Luk Lak Vietnamese Restaurant</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <marquee direction="left" style="width: 100%;height: 50px;padding-top: 10px; background:orange"><b>WELLCOME TO LUK LAK</b></marquee>
+        </div>
+        <div>
+            <table class="menu" id="menuChinh" >
+                    <tr>
+                        <th>Mã món</th>
+                        <th>Tên món</th>
+                        <th>Đơn giá</th>
+                        <th>Chọn</th>
+                    </tr>
+                    <tr id = MA-1>
+                        <td class="col-id">MA1</td>
+                        <td class = "productName">Nộm Gà Xé Phay Hoa Chuối</td>
+                        <td id = "price">159000</td>
+                        <td>
+                            <button type="button" producId="1" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-2>
+                        <td class="col-id">MA2</td>
+                        <td class = "productName">Nộm Bạch Tuyết</td>
+                        <td id = "price">119000</td>
+                        <td>
+                            <button type="button" producId="2" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-3>
+                        <td class="col-id">MA3</td>
+                        <td class = "productName">Cà Tím Nướng Mỡ Hành</td>
+                        <td id = "price">119000</td>
+                        <td>
+                            <button type="button" producId="3" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-4>
+                        <td class="col-id">MA4</td>
+                        <td class = "productName">Tôm Thẻ Cuốn Bánh Tráng</td>
+                        <td id = "price">119000</td>
+                        <td>
+                            <button type="button" producId="4" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-5>
+                        <td class="col-id">MA5</td>
+                        <td class = "productName">Nem Ốc Hà Nội</td>
+                        <td id = "price">199000</td>
+                        <td>
+                            <button type="button" producId="5" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-6>
+                        <td class="col-id">MA6</td>
+                        <td class = "productName">Chả Ốc Hồ Tây</td>
+                        <td id = "price">199000</td>
+                        <td>
+                            <button type="button" producId="6" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-7>
+                        <td class="col-id">MA7</td>
+                        <td class = "productName">Nem Tôm Cánh Én</td>
+                        <td id = "price">219000</td>
+                        <td>
+                            <button type="button" producId="7" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-8>
+                        <td class="col-id">MA8</td>
+                        <td class = "productName">Ốc Om Chuối Đậu</td>
+                        <td id = "price">149000</td>
+                        <td>
+                            <button type="button" producId="8" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-9>
+                        <td class="col-id">MA9</td>
+                        <td class = "productName">Cá Lăng Om Chuối Đậu</td>
+                        <td id = "price">249000</td>
+                        <td>
+                            <button type="button" producId="9" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-10>
+                        <td class="col-id">MA10</td>
+                        <td class = "productName">Cua Lột Sốt Me Cuốn Bánh Tráng</td>
+                        <td id = "price">399000</td>
+                        <td>
+                            <button type="button" producId="10" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-11>
+                        <td class="col-id">MA11</td>
+                        <td class = "productName">Tôm Sóc Tỏi Quảng Trị</td>
+                        <td id = "price">349000</td>
+                        <td>
+                            <button type="button" producId="11" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-12>
+                        <td class="col-id">MA12</td>
+                        <td class = "productName">Gà Nướng Tú Lệ</td>
+                        <td id = "price">359000</td>
+                        <td>
+                            <button type="button" producId="12" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-13>
+                        <td class="col-id">MA13</td>
+                        <td class = "productName">Lơn Nướng SaPa</td>
+                        <td id = "price">299000</td>
+                        <td>
+                            <button type="button" producId="13" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-14>
+                        <td class="col-id">MA14</td>
+                        <td class = "productName">Lợn Nướng Ống Tre</td>
+                        <td id = "price">199000</td>
+                        <td>
+                            <button type="button" producId="14" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-15>
+                        <td class="col-id">MA15</td>
+                        <td class = "productName">Chả Vịt Nướng Rau Thơm</td>
+                        <td id = "price">159000</td>
+                        <td>
+                            <button type="button" producId="15" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-16>
+                        <td class="col-id">MA16</td>
+                        <td class = "productName">Thăn Bò Úc Cuốn Lá Lốt Bỏ Lò</td>
+                        <td id = "price">399000</td>
+                        <td>
+                            <button type="button" producId="16" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-17>
+                        <td class="col-id">MA17</td>
+                        <td class = "productName">Bún Chả Que Tre</td>
+                        <td id = "price">159000</td>
+                        <td>
+                            <button type="button" producId="17" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-18>
+                        <td class="col-id">MA18</td>
+                        <td class = "productName">Bồ Câu Nhồi Nướng Ngũ Vị</td>
+                        <td id = "price">299000</td>
+                        <td>
+                            <button type="button" producId="18" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-19>
+                        <td class="col-id">MA19</td>
+                        <td class = "productName">Bò Cuốn Sả Nướng Lụi</td>
+                        <td id = "price">359000</td>
+                        <td>
+                            <button type="button" producId="19" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-20>
+                        <td class="col-id">MA20</td>
+                        <td class = "productName">Nem Rán Hà Nội</td>
+                        <td id = "price">139000</td>
+                        <td>
+                            <button type="button" producId="20" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-21>
+                        <td class="col-id">MA21</td>
+                        <td class = "productName">Trứng Cuộn Hàu Sữa</td>
+                        <td id = "price">139000</td>
+                        <td>
+                            <button type="button" producId="21" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-22>
+                        <td class="col-id">MA22</td>
+                        <td class = "productName">Mâm Vịt Ba Món</td>
+                        <td id = "price">299000</td>
+                        <td>
+                            <button type="button" producId="22" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-23>
+                        <td class="col-id">MA23</td>
+                        <td class = "productName">Mẹt Lợn Tên Lửa</td>
+                        <td id = "price">1350000</td>
+                        <td>
+                            <button type="button" producId="23" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-24>
+                        <td class="col-id">MA24</td>
+                        <td class = "productName">MẸT CÁ TẦM BELUGA SỐT MẮC MẬT </td>
+                        <td id = "price">899000</td>
+                        <td>
+                            <button type="button" producId="24" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+                    <tr id= MA-25>
+                        <td class="col-id">MA25</td>
+                        <td class = "productName">Canh Chua Cá Lăng </td>
+                        <td id = "price">129000</td>
+                        <td>
+                            <button type="button" producId="25" class="btn btn-success btn-choose add2cart">Chọn</button>
+                        </td>
+                    </tr>
+            </table>
+        </div>
+        <div>
+            <table class="tinhtien text-center" id="thanhToan" >
+                <thead>
+                    <tr>
+                        <th>Mã Món <br></th>
+                        <th>Tên <br> Món</th>
+                        <th>Số <br> Lượng</th>
+                        <th>Đơn Giá</th>
+                    </tr>
+                </thead>
+                <tbody id="bill-table">
+                   <tr>
+                       <td>MA1</td>
+                       <td>Nom Ga Xe Phay Hoa Chuoi</td>
+                       <td>
+
+                           <input type="number" name="" value="1" min="0" step="1">
+                           <button type="button" class="btn btn-xs btn-info">
+                               <span class="glyphicon glyphicon-remove"></span>
+                           </button>
+                       </td>
+                       <td>
+                           <b><span class="unit-price">159000</span></b>
+                       </td>
+                   </tr>
+                   <tr>
+                       <td colspan="3">Total Price</td>
+                       <td><b><span class="unit-price">159000</span></b></td>
+                   </tr>
+                </tbody>
+                </table>
+        </div>
+            <div class="container py-3">
+                <table class="khung">
+                    <tr>
+                        <td class="ban" onclick="numberClick('A1')">A1</td>
+                        <td class="ban" onclick="numberClick('A2')">A2</td>
+                    </tr>
+                    <tr>
+                        <td class="ban" onclick="numberClick('A3')">A3</td>
+                        <td class="ban" onclick="numberClick('A4')">A4</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="nhac">MP3</div>
+            <audio controls="controls">
+                <source src="CoThamKhongVe-PhatHoJokesBiiThien-6067247.mp3" type="audio/mpeg" />
+            </audio>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+        <script src="script.js">
+        </script>
+    </div>
+</body>
+
+</html>

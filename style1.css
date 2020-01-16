@@ -13,7 +13,7 @@ body{
 .header {
     width: 100%;
     height: 630px;
-    background-image: url(image/tet.jpg);
+    background-image: url(tet.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
